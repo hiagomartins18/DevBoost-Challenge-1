@@ -1,0 +1,111 @@
+main{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.left-main{
+
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 340px;
+    gap: 13px;
+    margin-top: 2rem;
+}
+
+.subtitle{
+
+    font-family: 'Exo 2';
+    font-weight: 300;
+    font-size: 0.938rem;
+    line-height: 3.3rem;
+    color: black;
+    letter-spacing: 0.19rem;
+}
+
+.title{
+
+    font-family: 'Exo 2';
+    font-size: 2.7rem;
+    font-weight: bold;
+    line-height: 3.3rem;
+    color: #393d51;
+}
+
+.title strong{
+
+    color: red;
+}
+
+.left-main--texts p{
+
+    margin-top: 14px;
+    margin-bottom: 14px;
+    font-family: 'Exo 2';
+    font-weight: 300;
+}
+
+.left-main--buttons{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about{
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 35px;
+    padding-right: 35px;
+    color: white;
+    background-color: red;
+    border: 0;
+    border-radius: 10px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-right: 14px;
+    cursor: pointer;
+}
+
+.press-play{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: none;
+    color: #393D51;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.press-play img{
+
+    margin-right: 10px;
+}
+
+.right-main{
+
+    margin-left: 205px;
+    margin-top: 80px;
+}
+
+.right-main img{
+
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
